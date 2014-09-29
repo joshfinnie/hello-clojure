@@ -1,10 +1,6 @@
 # hello-clojure
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
+A simple hello world app... seeing if I can wrap my head around this.
 
 ## Usage
 
@@ -14,11 +10,12 @@ FIXME: explanation
 
 ## Options
 
-FIXME: listing of options this app accepts.
+-name (-n): Give the program a name to say hello to.
 
 ## Examples
 
-...
+    $ java -jar hello-clojure-0.1.0-standalone.jar --name Josh
+    Hello Josh!
 
 ### Bugs
 
@@ -30,7 +27,6 @@ FIXME: listing of options this app accepts.
 
 ## License
 
-Copyright © 2014 FIXME
+Copyright © 2014 Josh Finnie
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the [MIT License](http://www.joshfinnie.com/license.txt).
